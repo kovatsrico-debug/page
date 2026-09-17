@@ -96,7 +96,7 @@
         e.preventDefault();
         var input = form.querySelector("input");
         var plz = (input.value || "").trim();
-        var url = "/haendlersuche/";
+        var url = "haendlersuche/";
         if (plz) url += "?plz=" + encodeURIComponent(plz);
         window.location.href = url;
       });

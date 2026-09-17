@@ -79,7 +79,7 @@
 
     var dealersByBl = {};
 
-    fetch("/assets/data/haendler.json")
+    fetch("../assets/data/haendler.json")
       .then(function (res) { return res.json(); })
       .then(function (dealers) {
         dealers.forEach(function (d) { dealersByBl[d.bundeslandKey] = d; });
