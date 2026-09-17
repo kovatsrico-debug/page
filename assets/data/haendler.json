@@ -1,0 +1,101 @@
+[
+  {
+    "id": "wien",
+    "bundeslandKey": "wien",
+    "bundeslandName": "Wien",
+    "name": "KoRd Fachpartner Wien",
+    "strasse": "Musterstraße 12",
+    "plz": "1100",
+    "ort": "Wien",
+    "telefon": "+43 1 234 56 78",
+    "email": "wien@kord.at"
+  },
+  {
+    "id": "noe",
+    "bundeslandKey": "noe",
+    "bundeslandName": "Niederösterreich",
+    "name": "KoRd Fachpartner Niederösterreich",
+    "strasse": "Hauptplatz 4",
+    "plz": "3100",
+    "ort": "St. Pölten",
+    "telefon": "+43 2742 123 456",
+    "email": "noe@kord.at"
+  },
+  {
+    "id": "burgenland",
+    "bundeslandKey": "burgenland",
+    "bundeslandName": "Burgenland",
+    "name": "KoRd Insektenschutz Systeme GmbH – Stammhaus",
+    "strasse": "Karrnergasse 14",
+    "plz": "7301",
+    "ort": "Deutschkreutz",
+    "telefon": "+43 664 846 74 00",
+    "email": "info@kord.at"
+  },
+  {
+    "id": "ooe",
+    "bundeslandKey": "ooe",
+    "bundeslandName": "Oberösterreich",
+    "name": "KoRd Fachpartner Oberösterreich",
+    "strasse": "Landstraße 55",
+    "plz": "4020",
+    "ort": "Linz",
+    "telefon": "+43 732 123 456",
+    "email": "ooe@kord.at"
+  },
+  {
+    "id": "salzburg",
+    "bundeslandKey": "salzburg",
+    "bundeslandName": "Salzburg",
+    "name": "KoRd Fachpartner Salzburg",
+    "strasse": "Getreidegasse 3",
+    "plz": "5020",
+    "ort": "Salzburg",
+    "telefon": "+43 662 123 456",
+    "email": "salzburg@kord.at"
+  },
+  {
+    "id": "tirol",
+    "bundeslandKey": "tirol",
+    "bundeslandName": "Tirol",
+    "name": "KoRd Fachpartner Tirol",
+    "strasse": "Maria-Theresien-Straße 20",
+    "plz": "6020",
+    "ort": "Innsbruck",
+    "telefon": "+43 512 123 456",
+    "email": "tirol@kord.at"
+  },
+  {
+    "id": "vorarlberg",
+    "bundeslandKey": "vorarlberg",
+    "bundeslandName": "Vorarlberg",
+    "name": "KoRd Fachpartner Vorarlberg",
+    "strasse": "Bahnhofstraße 9",
+    "plz": "6900",
+    "ort": "Bregenz",
+    "telefon": "+43 5574 123 456",
+    "email": "vorarlberg@kord.at"
+  },
+  {
+    "id": "steiermark",
+    "bundeslandKey": "steiermark",
+    "bundeslandName": "Steiermark",
+    "name": "KoRd Fachpartner Steiermark",
+    "strasse": "Herrengasse 8",
+    "plz": "8010",
+    "ort": "Graz",
+    "telefon": "+43 316 123 456",
+    "email": "steiermark@kord.at"
+  },
+  {
+    "id": "kaernten",
+    "bundeslandKey": "kaernten",
+    "bundeslandName": "Kärnten",
+    "name": "KoRd Fachpartner Kärnten",
+    "strasse": "Alter Platz 6",
+    "plz": "9020",
+    "ort": "Klagenfurt",
+    "telefon": "+43 463 123 456",
+    "email": "kaernten@kord.at"
+  }
+]

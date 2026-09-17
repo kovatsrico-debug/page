@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Händler finden – KoRd Insektenschutz</title>
+<meta name="description" content="Geben Sie Ihre Postleitzahl ein und finden Sie sofort Ihren regionalen KoRd-Fachpartner für Insektenschutzsysteme.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-bar">
+    <a href="/" class="logo"><span class="mark">Ko</span>Rd</a>
+    <nav class="main-nav" id="main-nav">
+      <a href="/produkte/">Produkte</a>
+      <a href="/haendlersuche/" class="active">Händler finden</a>
+      <a href="/haendler-werden/">Händler werden</a>
+      <a href="/aktuelles/">Aktuelles</a>
+      <a href="/#ueber-uns">Über uns</a>
+    </nav>
+    <div class="header-actions">
+      <span class="tel">+43 664 846 74 00</span>
+      <button class="theme-toggle" aria-label="Design umschalten"></button>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Start</a> / Händler finden</div>
+      <span class="eyebrow">Händlersuche</span>
+      <h1 style="max-width:700px;">Ihr KoRd-Fachpartner in wenigen Sekunden</h1>
+      <p class="lead" style="max-width:600px;">Geben Sie Ihre Postleitzahl ein oder wählen Sie Ihr Bundesland direkt auf der Karte – wir zeigen Ihnen Ihren regionalen Ansprechpartner und angrenzende Regionen.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="locator-layout">
+        <div class="locator-search" data-reveal>
+          <h3 style="margin-bottom:4px;">Postleitzahl eingeben</h3>
+          <p style="font-size:.9rem; margin-bottom:0;">z. B. 1100, 4020, 6900 …</p>
+          <form data-locator-form novalidate>
+            <label class="sr-only" for="plz-input">Postleitzahl</label>
+            <input id="plz-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="4" placeholder="Ihre PLZ" data-locator-input>
+            <button type="submit" class="btn btn-primary">Suchen</button>
+          </form>
+          <p class="locator-error" data-locator-error></p>
+
+          <div class="bundesland-select">
+            <p>Oder Bundesland wählen</p>
+            <div class="bl-chip-list" data-bl-chips></div>
+          </div>
+        </div>
+
+        <div class="network-map" data-reveal>
+          <svg viewBox="0 0 400 230" role="img" aria-label="Karte der KoRd-Händlerregionen in Österreich">
+            <g class="network-edges">
+              <line class="network-edge" x1="40" y1="105" x2="105" y2="125"/>
+              <line class="network-edge" x1="105" y1="125" x2="168" y2="95"/>
+              <line class="network-edge" x1="105" y1="125" x2="178" y2="188"/>
+              <line class="network-edge" x1="168" y1="95" x2="178" y2="188"/>
+              <line class="network-edge" x1="168" y1="95" x2="218" y2="55"/>
+              <line class="network-edge" x1="168" y1="95" x2="258" y2="150"/>
+              <line class="network-edge" x1="218" y1="55" x2="292" y2="68"/>
+              <line class="network-edge" x1="218" y1="55" x2="258" y2="150"/>
+              <line class="network-edge" x1="292" y1="68" x2="338" y2="92"/>
+              <line class="network-edge" x1="292" y1="68" x2="348" y2="132"/>
+              <line class="network-edge" x1="292" y1="68" x2="258" y2="150"/>
+              <line class="network-edge" x1="348" y1="132" x2="258" y2="150"/>
+              <line class="network-edge" x1="258" y1="150" x2="178" y2="188"/>
+            </g>
+
+            <g class="bl-node" data-bl="vorarlberg" transform="translate(40,105)">
+              <circle r="19"></circle>
+              <text text-anchor="middle" dy="4">Vlbg.</text>
+            </g>
+            <g class="bl-node" data-bl="tirol" transform="translate(105,125)">
+              <circle r="20"></circle>
+              <text text-anchor="middle" dy="4">Tirol</text>
+            </g>
+            <g class="bl-node" data-bl="salzburg" transform="translate(168,95)">
+              <circle r="20"></circle>
+              <text text-anchor="middle" dy="4">Sbg.</text>
+            </g>
+            <g class="bl-node" data-bl="ooe" transform="translate(218,55)">
+              <circle r="20"></circle>
+              <text text-anchor="middle" dy="4">OÖ</text>
+            </g>
+            <g class="bl-node" data-bl="noe" transform="translate(292,68)">
+              <circle r="21"></circle>
+              <text text-anchor="middle" dy="4">NÖ</text>
+            </g>
+            <g class="bl-node" data-bl="wien" transform="translate(338,92)">
+              <circle r="18"></circle>
+              <text text-anchor="middle" dy="4">Wien</text>
+            </g>
+            <g class="bl-node hq" data-bl="burgenland" transform="translate(348,132)">
+              <circle r="20"></circle>
+              <text text-anchor="middle" dy="1">Bgld.</text>
+              <text class="hq-label" text-anchor="middle" dy="11">HQ</text>
+            </g>
+            <g class="bl-node" data-bl="steiermark" transform="translate(258,150)">
+              <circle r="21"></circle>
+              <text text-anchor="middle" dy="4">Stmk.</text>
+            </g>
+            <g class="bl-node" data-bl="kaernten" transform="translate(178,188)">
+              <circle r="20"></circle>
+              <text text-anchor="middle" dy="4">Ktn.</text>
+            </g>
+          </svg>
+          <p style="font-size:.78rem; color:var(--color-ink-faint); text-align:center; margin:12px 0 0;">Klicken Sie auf ein Bundesland, um Ihren Partner anzuzeigen.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:40px;" data-reveal>
+        <h2 class="results-head" data-locator-head style="font-size:1.4rem;"></h2>
+        <div class="results-list" data-locator-results>
+          <div class="empty-state">Geben Sie links Ihre Postleitzahl ein oder wählen Sie ein Bundesland, um Ihren KoRd-Händler zu sehen.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="band -amber" data-reveal>
+        <div>
+          <h2 style="font-size:1.7rem;">Noch kein Partner in Ihrer Region?</h2>
+          <p style="max-width:460px;">Wenn Sie selbst Fachhändler oder Handwerksbetrieb sind, freuen wir uns über Ihre Anfrage als KoRd-Partner.</p>
+        </div>
+        <a class="btn btn-primary" href="/haendler-werden/">Partneranfrage starten</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px;"><span class="mark">Ko</span>Rd</div>
+        <p>Insektenschutzsysteme aus Österreich – maßgefertigt, allergikerfreundlich, langlebig.<br>Karrnergasse 14, 7301 Deutschkreutz.</p>
+      </div>
+      <div>
+        <h4>Für Sie</h4>
+        <a href="/produkte/">Produkte</a>
+        <a href="/haendlersuche/">Händler finden</a>
+        <a href="/aktuelles/">Aktuelles</a>
+      </div>
+      <div>
+        <h4>Für Handelspartner</h4>
+        <a href="/haendler-werden/">KoRd-Partner werden</a>
+        <a href="/haendlersuche/">Unser Händlernetz</a>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Datenschutz</a>
+        <a href="mailto:info@kord.at">info@kord.at</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> KoRd Insektenschutz Systeme GmbH</span>
+      <span>+43 664 846 74 00 · info@kord.at</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/haendlersuche.js"></script>
+</body>
+</html>
